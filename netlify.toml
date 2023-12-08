@@ -1,8 +1,8 @@
 [[headers]]
   for = "src/pages/*"
   [headers.values]
-    x-frame-options = SAMEORIGIN
-    x-content-type-options = nosniff
+    x-frame-options = "SAMEORIGIN"
+    x-content-type-options = "nosniff"
     content-security-policy = '''
     default-src 'self',
     base-uri 'self''''
