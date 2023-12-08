@@ -1,0 +1,4 @@
+/src/pages/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Content-Security-Policy: default-src 'self'; base-uri 'self';
